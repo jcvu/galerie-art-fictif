@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>m_galerie d'art fictive_expositions</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href=" ">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<style> 
+ 
+    body
+	{
+	zoom :80%;
+	}
+ 
+@media screen and (min-width: 1500px) and (max-width: 2000px)  /* deskstop  */
+    {
+
+		#header
+		{
+		position : relative;
+		left : 335px;
+		background-color : FireBrick ;
+		color : white;
+		font-family : Verdana;
+		padding-left : 50px;
+		/*padding-right : -100px;*/
+		padding-top : 5px;
+		padding-bottom : 25px; 
+		box-shadow: 5px 5px grey;
+		margin-left :300px;
+		margin-right: 300px;
+		margin-top : 10px;
+		border: 1px solid;
+		border-radius: 25px;
+		width: 1240px;
+		}
+
+		#centre
+		{
+		position :relative;
+		left : 338px;
+		bottom : 20px;
+		background-color : AntiqueWhite;
+		width : 1250px;
+		height:500px;
+		padding-bottom : 00px;  
+		box-shadow: 5px 5px grey;
+		margin-left :300px;
+		margin-right: 300px;
+		border: 1px solid;
+		border-radius: 25px;
+		width: 1290px; 
+		}
+
+		footer
+		{
+		position : relative;
+		left : 338px;
+		bottom :20px;
+		background-color : FireBrick ;
+		color : white;
+		font-family : Verdana; 
+		padding-top :20px;
+		padding-bottom :25px;
+		font-size : 13px; 
+		box-shadow: 5px 5px grey;
+		margin-left :300px;
+		margin-right: 300px; 
+		margin-top:  20px;
+		border: 1px solid;
+		border-radius: 25px;
+		width: 1295px;
+		}
+
+		.coordonnees
+		{
+		margin-right : 50px;
+		}
+
+		#total .socialweb
+		{
+		position : relative;
+		left :110px;
+		}
+
+		#total .socialweb a:hover
+		{
+		background-color: lightgrey;
+		padding-top: 12px;
+		}
+
+		#total #centre #dates
+		{
+		position :relative;
+		margin-top:40px;
+		margin-bottom:40px;
+		left : 600px;
+		}
+
+		#expositions
+		{
+		padding-left : 90px;
+		}
+
+
+		#total #menu ul li a:hover  
+		{
+		background-color: lightgrey;
+		padding: 0px;
+		padding-right : 0px;
+		margin-right :00px;
+		padding-left : 0px;
+		position : relative;
+		right: 0px;  
+		}
+
+		#menu ul li
+		{
+		padding-right : 50px;
+		display : inline-block;
+		padding-top : 10px;
+		padding-bottom : 10px;
+		} 
+
+		li
+		{
+		list-style-type: none;
+		}
+
+		#total #menu  
+		{
+		position: relative;  
+		left : 667px;
+		}
+
+		#centre
+		{
+		font-family : Verdana;
+		}
+
+		footer .m_galerie
+		{
+		padding-left : 35%;
+		}
+
+		footer .copyright
+		{
+		padding-left : 34%;
+		}
+
+		body
+		{
+		overflow-x: hidden;
+		background-color  : bisque;
+		}
+		#total
+		{
+		padding-left : 2%; 
+		}
+		
+    }
+	
+@media screen and (min-width: 1000px) and (max-width: 1500px)  /* scroll-x visible  */
+    {
+
+		#header
+		{
+		position : relative;
+		left : 335px;
+		background-color : FireBrick ;
+		color : white;
+		font-family : Verdana;
+		padding-left : 50px;
+		/*padding-right : -100px;*/
+		padding-top : 5px;
+		padding-bottom : 25px; 
+		box-shadow: 5px 5px grey;
+		margin-left :300px;
+		margin-right: 300px;
+		margin-top : 10px;
+		border: 1px solid;
+		border-radius: 25px;
+		width: 1240px;
+		}
+
+		#centre
+		{
+		position :relative;
+		left : 338px;
+		bottom : 20px;
+		background-color : AntiqueWhite;
+		width : 1250px;
+		height:500px;
+		padding-bottom : 00px;  
+		box-shadow: 5px 5px grey;
+		margin-left :300px;
+		margin-right: 300px;
+		border: 1px solid;
+		border-radius: 25px;
+		width: 1290px; 
+		}
+
+		footer
+		{
+		position : relative;
+		left : 338px;
+		bottom :20px;
+		background-color : FireBrick ;
+		color : white;
+		font-family : Verdana; 
+		padding-top :20px;
+		padding-bottom :25px;
+		font-size : 13px; 
+		box-shadow: 5px 5px grey;
+		margin-left :300px;
+		margin-right: 300px; 
+		margin-top:  20px;
+		border: 1px solid;
+		border-radius: 25px;
+		width: 1295px;
+		}
+
+		.coordonnees
+		{
+		margin-right : 50px;
+		}
+
+		#total .socialweb
+		{
+		position : relative;
+		left :110px;
+		}
+
+		#total .socialweb a:hover
+		{
+		background-color: lightgrey;
+		padding-top: 12px;
+		}
+
+		#total #centre #dates
+		{
+		position :relative;
+		margin-top:40px;
+		margin-bottom:40px;
+		left : 600px;
+		}
+
+		#expositions
+		{
+		padding-left : 90px;
+		}
+
+		#total #menu ul li a:hover  
+		{
+		background-color: lightgrey;
+		padding: 0px;
+		padding-right : 0px;
+		margin-right :00px;
+		padding-left : 0px;
+		position : relative;
+		right: 0px;  
+		}
+
+		#menu ul li
+		{
+		padding-right : 50px;
+		display : inline-block;
+		padding-top : 10px;
+		padding-bottom : 10px;
+		} 
+
+		li
+		{
+		list-style-type: none;
+		}
+
+		#total #menu  
+		{
+		position: relative;  
+		left : 667px;
+		}
+
+		#centre
+		{
+		font-family : Verdana;
+		}
+
+		footer .m_galerie
+		{
+		padding-left : 35%;
+		}
+
+		footer .copyright
+		{
+		padding-left : 34%;
+		}
+
+		body
+		{
+		overflow-x: visible;
+		background-color  : bisque;
+		}
+		#total
+		{
+		padding-left : 2%; 
+		}
+
+    }	
+	
+@media screen and (min-width: 617px) and (max-width: 1000px) /*  tablette scroll-x hidden  */
+   {
+   	    body                                                                
+		{
+		overflow-x: hidden;
+		background-color  : bisque;
+		}
+   }	
+	 
+@media screen and (min-width: 0px) and (max-width: 617px) /* mobile */
+   {
+   
+			#header
+			{                           
+			position :relative;
+			right:0px;
+			background-color : FireBrick ;
+			color : white;
+			font-family : Verdana;
+			padding-left : 50px;
+			padding-top : 5px;
+			padding-bottom : 25px;
+			box-shadow: 5px 5px grey;
+			margin-left :0px;
+			margin-right: 0px;
+			margin-top : 10px;
+			border: 1px solid;
+			border-radius: 25px;
+			font-size :10px;   
+			}
+
+			#centre
+			{
+			background-color : AntiqueWhite ;
+			font-family : Verdana;
+			box-shadow: 5px 5px grey;
+			margin-left : 0px;
+			margin-right: 0px;
+			border: 1px solid;
+			border-radius: 25px; 
+			font-size :10px;   
+			}
+
+			#menu ul li a:hover
+			{
+			background-color: lightgrey;
+			padding: 10px;
+			padding-right : 245px;
+			padding-left : 240px;
+			position : relative;
+			right: 240px;
+			}
+
+			.coordonnees
+			{
+			margin-right : 50px;
+			}
+
+			#total #header .socialweb
+			{
+			padding-left :0%;    
+			margin-top : 5%;    
+			}
+
+			#total #header  .socialweb a:hover
+			{
+			background-color: lightgrey;
+			padding-top: 17px;      
+			border-radius: 5px;       
+			}
+
+			#centre #dates
+			{
+			position :relative;
+			margin-top:35px;
+			margin-bottom:35px;
+			left : 25%;
+			}
+
+			h4
+			{
+			margin-left : 40%;
+			}
+			h5
+			{
+			margin-left : 40%;
+			margin-top : 20px;
+			}
+
+			#total footer
+			{
+			background-color : FireBrick ;
+			color : white;
+			font-family : Verdana;
+			padding-top :20px;
+			padding-bottom :25px;
+			font-size : 13px;
+			box-shadow: 5px 5px grey;
+			margin-left :0px;
+			margin-right: 0px;
+			margin-top:  20px;
+			border: 1px solid;
+			border-radius: 25px;
+			font-size :6px;   
+			}
+
+			#menu ul li
+			{ 
+			padding-top : 10px;
+			padding-bottom : 30px;
+			} 
+
+			li
+			{
+			list-style-type: none;
+			}
+
+			a:hover
+			{ 
+			background-color: lightgrey; 
+
+			}
+
+			#total #menu
+			{
+			position: relative;  
+			left : 25%;
+			font-size :12px;   
+			}
+
+			#centre li:hover
+			{
+			background-color : lightgrey;
+			padding: -100px;
+			border-radius : 30px;
+			}
+
+			#centre article
+			{
+			font-size :10px;
+			padding-top : 10px;
+			padding-bottom : 10px;
+			padding-left : 20px;
+			}
+
+			body
+			{
+			overflow-x: hidden;
+			background-color  : bisque;
+			}
+			h3
+			{
+			margin-left : 13%;
+			}
+
+			#total
+			{
+			padding-right : 5%; 
+			}
+
+			#centre .imagejc
+			{
+			padding-left : 40px;
+			width :75%;
+			}
+
+			.m_galerie
+			{
+			padding-left : 16%;
+			font-size : 7px;
+			}
+
+			.copyright
+			{
+			padding-left : 15%;
+			font-size : 7px;
+			}
+    
+   
+		}
+	 
+	#header
+	{                           
+	position :relative;
+	right:0px;
+	background-color : FireBrick ;
+	color : white;
+	font-family : Verdana;
+	padding-left : 50px;
+	padding-top : 5px;
+	padding-bottom : 25px;
+	box-shadow: 5px 5px grey;
+	margin-left :0px;
+	margin-right: 0px;
+	margin-top : 10px;
+	border: 1px solid;
+	border-radius: 25px;
+
+	}
+
+	#centre
+	{
+	background-color : AntiqueWhite ;
+	font-family : Verdana;
+	box-shadow: 5px 5px grey;
+	margin-left : 0px;
+	margin-right: 0px;
+	border: 1px solid;
+	border-radius: 25px; 
+	} 
+
+	footer
+	{
+	background-color : FireBrick ;
+	color : white;
+	font-family : Verdana;
+	padding-top :20px;
+	padding-bottom :25px;
+	font-size : 13px;
+	box-shadow: 5px 5px grey;
+	margin-left :0px;
+	margin-right: 0px;
+	margin-top:  20px;
+	border: 1px solid;
+	border-radius: 25px;
+
+	}
+
+	#menu ul li a:hover
+	{
+	background-color: lightgrey;
+	padding: 10px;
+	padding-right : 245px;
+	padding-left : 240px;
+	position : relative;
+	right: 240px;
+	}
+
+	#menu ul li
+	{
+	padding-top : 10px;
+	padding-bottom : 30px;
+	} 
+
+	li
+	{
+	list-style-type: none;
+	}
+
+	a:hover
+	{ 
+	background-color: lightgrey; 
+	}
+
+	#dates
+	{
+	position :relative;
+	margin-top:35px;
+	margin-bottom:20px;
+	left : 40%;
+	}
+
+	.socialweb
+	{
+	padding-left :75%;
+	margin-top : -5%;
+	}
+
+	.socialweb a:hover
+	{
+	background-color: lightgrey;
+	padding-top: 12px;
+	border-radius: 20px;
+	}
+
+	#menu
+	{
+	position: relative;  
+	left : 35%;
+	}
+
+	.m_galerie
+	{
+	padding-left : 20%;
+	}
+
+	.copyright
+	{
+	padding-left : 19%;
+	}
+
+	body
+	{ 
+	background-color  : bisque;
+	}
+
+	#total
+	{
+	padding-right : 5%; 
+	}
+
+	 
+</style>
+
+<body>
+
+
+   <div id="total">
+
+		<div id="header">
+
+			 <p class="coordonnees">
+			 
+				 <h2>galerie Electrogina</h2>
+				 <br>
+				 Adresse fictive
+				<br>
+				 Code postal fictif, Ville fictive, Pays fictif
+				 
+			 </p>
+			 
+			 
+			 <p class="socialweb">
+			 
+				<a href="www.facebook.com" target="_blank"><i class="fa fa-facebook-square" style="font-size:36px;color : white;"></i></a>
+				<a href="twitter.com" target="_blank"><i class="fa fa-twitter-square" style="font-size:36px;color : white;"></i></a>
+				<a href="instagram.com" target="_blank"><i class="fa fa-instagram" style="font-size:36px;color : white;"></i></a>
+				
+			 </p>
+
+		</div>  
+
+
+			<div id="menu">
+				 <ul>
+					<li><a href="index.html" style="text-decoration:none">ACCUEIL</a></li>
+					<li><a href="m_galeriedart_fictive_presentation.html"  style="text-decoration:none">PRESENTATION</a></li>
+					<li><a href="m_galeriedart_fictive_expositions.html">EXPOSITIONS</a></li>
+					<li><a href="m_galeriedart_fictive_contact.php" style="text-decoration:none">CONTACT</a></li>
+				</ul>
+		    </div>
+		  
+		<div id="centre">
+		  
+			   <div id="dates">
+					<h3><a href="m_galeriedart_fictive_expositions_2017.html" style="text-decoration:none">2017</a></h3>
+					  <br>
+					  <br>
+					  <h3><a href="m_galeriedart_fictive_expositions_2016.html" style="text-decoration:none">2016</a></h3>
+					  <br>
+					  <br>
+					  <h3><a href="m_galeriedart_fictive_expositions_2015.html" style="text-decoration:none">2015</a></h3>
+					  <br>
+					  <br>
+					  <h3><a href="m_galeriedart_fictive_expositions_2014.html" style="text-decoration:none">2014</a></h3>
+					  <br>
+					  <br>
+					  <h3> &nbsp;. . .</h3>
+				</div>
+
+		</div>
+		  
+			<footer>
+		  
+				<span class="m_galerie">
+				galerie Electrogina, Code postal fictif, Ville fictive, Pays fictif
+				</span> 
+				<br>
+				<br>
+				<span class="copyright">
+				Copyright 2017. Designed by Jean-Charles,
+				Agence web fictive
+				</span> 
+	 
+			</footer>
+  
+   </div>
+
+</body>
+</html>
